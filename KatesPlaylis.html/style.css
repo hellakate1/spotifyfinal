@@ -1,0 +1,320 @@
+body {
+  background-color: ivory;
+  align-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+header {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+h1 {
+  font-weight: 400;
+  font-size: 6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+iframe {
+  border: 3px solid red;
+}
+/* Layout */
+.border-box {
+  padding: 0.3rem;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+/* Colors */
+.blue1 {
+  border: 5px solid rgb(182, 225, 255);
+}
+.pink1 {
+  border: 5px solid rgb(255, 204, 220);
+}
+
+.yellow1 {
+  border: 5px solid rgb(255, 247, 179);
+}
+
+.orange1 {
+  border: 5px solid rgb(255, 182, 153);
+}
+
+.green1 {
+  border: 5px solid rgb(189, 245, 189);
+}
+
+.purple1 {
+  border: 5px solid rgb(230, 230, 250);
+}
+
+.blue2 {
+  border: 5px solid rgb(157, 215, 251);
+}
+
+.pink2 {
+  border: 5px solid rgb(255, 179, 203);
+}
+
+.yellow2 {
+  border: 5px solid rgb(255, 245, 153);
+}
+
+.orange2 {
+  border: 5px solid rgb(255, 164, 128);
+}
+
+.green2 {
+  border: 5px solid rgb(166, 242, 166);
+}
+.purple2 {
+  border: 5px solid rgb(212, 212, 247);
+}
+.blue3 {
+  border: 5px solid rgb(133, 205, 251);
+}
+.pink3 {
+  border: 5px solid rgb(255, 153, 185);
+}
+.yellow3 {
+  border: 5px solid rgb(255, 242, 128);
+}
+.orange3 {
+  border: 5px solid rgb(255, 145, 102);
+}
+.green3 {
+  border: 5px solid rgb(121, 236, 121);
+}
+.purple3 {
+  border: 5px solid rgb(190, 190, 243);
+}
+.blue4 {
+  border: 5px solid rgb(108, 195, 249);
+}
+.pink4 {
+  border: 5px solid rgb(255, 128, 168);
+}
+.yellow4 {
+  border: 5px solid rgb(255, 240, 102);
+}
+.orange4 {
+  border: 5px solid rgb(255, 127, 77);
+}
+.green4 {
+  border: 5px solid rgb(121, 236, 121);
+}
+.purple4 {
+  border: 5px solid rgb(169, 169, 239);
+}
+.blue5 {
+  border: 5px solid rgb(84, 185, 248);
+}
+.pink5 {
+  border: 5px solid rgb(255, 102, 150);
+}
+.yellow5 {
+  border: 5px solid rgb(255, 237, 77);
+}
+.orange5 {
+  border: 5px solid rgb(255, 109, 51);
+}
+.green5 {
+  border: 5px solid rgb(99, 233, 32);
+}
+.purple5 {
+  border: 5px solid rgb(147, 147, 235);
+}
+.blue6 {
+  border: 5px solid rgb(59, 175, 247);
+}
+.pink6 {
+  border: 5px solid rgb(255, 77, 133);
+}
+.yellow6 {
+  border: 5px solid rgb(255, 235, 51);
+}
+.orange6 {
+  border: 5px solid rgb(255, 91, 26);
+}
+.green6 {
+  border: 5px solid rgb(77, 230, 77);
+}
+.purple6 {
+  border: 5px solid rgb(126, 126, 231);
+}
+.blue7 {
+  border: 5px solid rgb(35, 165, 246);
+}
+.pink7 {
+  border: 5px solid rgb(255, 51, 116);
+}
+.yellow7 {
+  border: 5px solid rgb(255, 232, 26);
+}
+.orange7 {
+  border: 5px solid rgb(255, 72, 0);
+}
+.green7 {
+  border: 5px solid rgb(54, 226, 54);
+}
+.purple7 {
+  border: 5px solid rgb(104, 104, 227);
+}
+.blue8 {
+  border: 5px solid rgb(10, 155, 245);
+}
+.pink8 {
+  border: 5px solid rgb(255, 26, 98);
+}
+.yellow8 {
+  border: 5px solid rgb(255, 230, 0);
+}
+.orange8 {
+  border: 5px solid rgb(230, 65, 0);
+}
+.green8 {
+  border: 5px solid rgb(32, 223, 32);
+}
+.purple8 {
+  border: 5px solid rgb(83, 83, 223);
+}
+.blue9 {
+  border: 5px solid rgb(9, 139, 220);
+}
+.pink9 {
+  border: 5px solid rgb(255, 0, 81);
+}
+.yellow9 {
+  border: 5px solid rgb(230, 207, 0);
+}
+.orange9 {
+  border: 5px solid rgb(204, 58, 0);
+}
+.green9 {
+  border: 5px solid rgb(29, 201, 29);
+}
+.purple9 {
+  border: 5px solid rgb(61, 61, 219);
+}
+.blue10 {
+  border: 5px solid rgb(8, 124, 196);
+}
+.pink10 {
+  border: 5px solid rgb(230, 0, 73);
+}
+.yellow10 {
+  border: 5px solid rgb(204, 184, 0);
+}
+.orange10 {
+  border: 5px solid rgb(179, 51, 0);
+}
+.green10 {
+  border: 5px solid rgb(25, 179, 25);
+}
+.purple10 {
+  border: 5px solid rgb(40, 40, 215);
+}
+.blue11 {
+  border: 5px solid rgb(7, 108, 171);
+}
+.pink11 {
+  border: 5px solid rgb(204, 0, 65);
+}
+.yellow11 {
+  border: 5px solid rgb(179, 161, 0);
+}
+.orange11 {
+  border: 5px solid rgb(153, 43, 0);
+}
+.green11 {
+  border: 5px solid rgb(22, 156, 22);
+}
+.purple11 {
+  border: 5px solid rgb(36, 36, 194);
+}
+.blue12 {
+  border: 5px solid rgb(6, 93, 147);
+}
+.pink12 {
+  border: 5px solid rgb(179, 0, 57);
+}
+.yellow12 {
+  border: 5px solid rgb(9153, 138, 0);
+}
+.orange12 {
+  border: 5px solid rgb(128, 36, 0);
+}
+.green12 {
+  border: 5px solid rgb(19, 134, 19);
+}
+.purple12 {
+  border: 5px solid rgb(32, 32, 172);
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
